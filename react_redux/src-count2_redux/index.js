@@ -1,3 +1,12 @@
+/*
+ * @Descripttion: 
+ * @version: 
+ * @Author: leifxie
+ * @Date: 2018-01-10 15:21:21
+ * @LastEditors: leifxie
+ * @LastEditTime: 2020-07-30 15:16:56
+ * @FilePath: \react-demo-code\react_redux\src\index.js
+ */ 
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {createStore} from 'redux'
@@ -17,7 +26,7 @@ const render = () => {
 }
 // 初始化渲染
 render()
-
+// -count2_redux
 // 注册(订阅)监听, 一旦状态发生改变, 自动重新渲染
 store.subscribe(render)
 

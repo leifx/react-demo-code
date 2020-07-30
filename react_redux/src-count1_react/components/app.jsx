@@ -20,7 +20,7 @@ export default class App extends Component {
 
   incrementIfOdd = () => {
     let count = this.state.count
-    if(count%2==1) {
+    if(count%2===1) {
       const num = this.refs.numSelect.value*1
       count += num
       this.setState({count})

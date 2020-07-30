@@ -9,6 +9,7 @@ import {counter} from './redux/reducers'
 // 根据counter函数创建store对象
 const store = createStore(counter)
 
+// -count3_react-redux
 // 定义渲染根组件标签的函数
 ReactDOM.render(
   (
